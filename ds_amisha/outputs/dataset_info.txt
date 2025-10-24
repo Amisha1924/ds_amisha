@@ -1,0 +1,38 @@
+=== Historical Data Info ===
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 211224 entries, 0 to 211223
+Data columns (total 16 columns):
+ #   Column            Non-Null Count   Dtype  
+---  ------            --------------   -----  
+ 0   Account           211224 non-null  object 
+ 1   Coin              211224 non-null  object 
+ 2   Execution Price   211224 non-null  float64
+ 3   Size Tokens       211224 non-null  float64
+ 4   Size USD          211224 non-null  float64
+ 5   Side              211224 non-null  object 
+ 6   Timestamp IST     211224 non-null  object 
+ 7   Start Position    211224 non-null  float64
+ 8   Direction         211224 non-null  object 
+ 9   Closed PnL        211224 non-null  float64
+ 10  Transaction Hash  211224 non-null  object 
+ 11  Order ID          211224 non-null  int64  
+ 12  Crossed           211224 non-null  bool   
+ 13  Fee               211224 non-null  float64
+ 14  Trade ID          211224 non-null  float64
+ 15  Timestamp         211224 non-null  float64
+dtypes: bool(1), float64(8), int64(1), object(6)
+memory usage: 24.4+ MB
+
+
+=== Fear-Greed Index Info ===
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2644 entries, 0 to 2643
+Data columns (total 4 columns):
+ #   Column          Non-Null Count  Dtype 
+---  ------          --------------  ----- 
+ 0   timestamp       2644 non-null   int64 
+ 1   value           2644 non-null   int64 
+ 2   classification  2644 non-null   object
+ 3   date            2644 non-null   object
+dtypes: int64(2), object(2)
+memory usage: 82.8+ KB

@@ -1,0 +1,1 @@
+Correlation between Sentiment Value and Daily Profit: -0.057
